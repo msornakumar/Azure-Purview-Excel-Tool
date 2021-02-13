@@ -1,6 +1,6 @@
 # Azure-Purview-Excel-Tool
 
-Azure Purview is cloud-native Fully managed PaaS service to address discovery and compliance needs.Once the discovery is done by setting up scanning , users can search the metadata using Azure Purview Studio by providng search criteria. Right now there is no feature available to export the results to an excel file.This tool writen in Python will export the search results from purview to excel using rest API.
+Azure Purview is cloud-native fully managed PaaS service to address discovery and compliance needs.Once the discovery is done by setting up scanning , users can search the metadata using Azure Purview Studio by providng search criteria. Right now there is no feature available to export the results to an excel file.This tool writen in Python will export the search results from purview to excel using rest API.
 
 This version provides the ability to download the search results. In the next  versions , ability to upload the data back also will be added.
 
