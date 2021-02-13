@@ -2,6 +2,8 @@
 
 Azure Purview is cloud-native Fully managed PaaS service to address discovery and compliance needs.Once the discovery is done by setting up scanning , users can search the metadata using Azure Purview Studio by providng search criteria. Right now there is no feature available to export the results to an excel file.This tool writen in Python will export the search results from purview to excel using rest API.
 
+This version provides the ability to download the search results. In the next  versions , ability to upload the data back also will be added.
+
 # How to use the tool
 ## Prerequisites
 
@@ -27,9 +29,9 @@ Azure Purview is cloud-native Fully managed PaaS service to address discovery an
 
 4) Install below packages
 
-    pip install azure-identity
-    pip install azure-keyvault-secrets
-    pip install XlsxWriter
+    pip install azure-identity<br/>
+    pip install azure-keyvault-secrets<br/>
+    pip install XlsxWriter<br/>
     pip install argparse
 
 <br/>
@@ -64,8 +66,6 @@ Azure Purview is cloud-native Fully managed PaaS service to address discovery an
 
 1) Navigate to the path of the script and run command with filename with the required parameter.
 
-
-
 ### <ins> Running from Visual Code </ins>
 
 1) Follow the below tutorial to setup Code for Python
@@ -79,10 +79,10 @@ Azure Purview is cloud-native Fully managed PaaS service to address discovery an
 3) Run the script after setting up the parameters mentioned above.
 
 
-Note : While running the script , Ignore the below message as this error will not stop the execution.
+***Note : While running the script , Ignore the below message as this error will not stop the execution.***
 
-EnvironmentCredential.get_token failed: EnvironmentCredential authentication unavailable. Environment variables are not fully configured.
+***EnvironmentCredential.get_token failed: EnvironmentCredential authentication unavailable. Environment variables are not fully configured.
 ManagedIdentityCredential.get_token failed: ManagedIdentityCredential authentication unavailable, no managed identity endpoint found.
-SharedTokenCacheCredential.get_token failed: SharedTokenCacheCredential authentication unavailable. No accounts were found in the cache.
+SharedTokenCacheCredential.get_token failed: SharedTokenCacheCredential authentication unavailable. No accounts were found in the cache.*** 
 
 
